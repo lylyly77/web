@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            /* 合并边框模式，使边框连接 */
+            border: 1px solid black;
+            /* 设置表格边框 */
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 6px;
+            /* 设置单元格边框 */
+        }
+    </style>
+</head>
+
+<body>
+    <video src="./video/1.mp4" controls loop muted autoplay width="400"></video>
+    <table>
+        <tr>
+            <th>属性</th>
+            <th>作用</th>
+            <th>特殊说明</th>
+        </tr>
+        <tr>
+            <td>src 必须属性</td>
+            <td>音频URL</td>
+            <td>支持格式:MP4</td>
+        </tr>
+        <tr>
+            <td>controls</td>
+            <td>显示视频控制面板</td>
+        </tr>
+        <tr>
+            <td>loop</td>
+            <td>循环播放</td>
+        </tr>
+        <tr>
+            <td>muted</td>
+            <td>静音播放</td>
+        </tr>
+        <tr>
+            <td>autoplay</td>
+            <td>自动播放</td>
+            <td>为了用户体验，浏览器支持在静音状态自动播放</td>
+        </tr>
+    </table>
+</body>
+
+</html>

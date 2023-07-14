@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            /* 合并边框模式，使边框连接 */
+            border: 1px solid black;
+            /* 设置表格边框 */
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 6px;
+            /* 设置单元格边框 */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 音频标签 -->
+    <!-- 加controls 才会显示播放框 -->
+    <!-- 在HTML5里面，如果属性名和属性值完全一样，可以简写为一个单词 controls = "controls" -->
+    <audio src="./music//高兴 - 小幸运（Cover田馥甄）.mp3" controls loop autoplay></audio>
+    <table>
+        <tr>
+            <th>属性</th>
+            <th>作用</th>
+            <th>特殊说明</th>
+        </tr>
+        <tr>
+            <td>src 必须属性</td>
+            <td>音频URL</td>
+            <td>支持格式:MP3</td>
+        </tr>
+        <tr>
+            <td>controls</td>
+            <td>显示音频控制面板</td>
+        </tr>
+        <tr>
+            <td>loop</td>
+            <td>循环播放</td>
+        </tr>
+        <tr>
+            <td>autoplay</td>
+            <td>自动播放</td>
+            <td>为了用户体验，浏览器一般会禁用自动播放功能</td>
+        </tr>
+    </table>
+</body>
+
+</html>
