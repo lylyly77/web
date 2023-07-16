@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>引入css方式</title>
+    <!-- 外部样式表 -->
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* 内部样式表 */
+        p {
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    行内样式(内联样式)
+    <p style="color: aquamarine;">我是css</p>
+
+    <p>优先级：内联样式优先级最高，内部样式和外部样式看浏览器读取的先后</p>
+    <p>link 写在<’style‘>上方，则外部高于内部；反之，则相反</p>
+</body>
+
+</html>
