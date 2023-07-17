@@ -1,0 +1,25 @@
+.box {
+  width: 800px;
+}
+h1 {
+  text-align: center;
+}
+.plc {
+  text-align: center;
+}
+.content {
+  text-indent: 2em;
+}
+.info {
+  text-align: center;
+}
+.time {
+  color: grey;
+}
+.sina {
+  color: skyblue;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
