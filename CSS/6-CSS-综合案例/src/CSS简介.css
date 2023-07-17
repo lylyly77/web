@@ -1,0 +1,17 @@
+h1 {
+  color: #333;
+}
+p {
+  text-indent: 2em;
+  font-size: 14px;
+  color: #444;
+  line-height: 30px;
+}
+li {
+  font-size: 14px;
+  color: #444;
+  line-height: 30px;
+}
+a {
+  color: #0069c2;
+}

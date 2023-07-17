@@ -1,0 +1,18 @@
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+}
+p {
+  text-indent: 2em;
+  font-size: 18px;
+  color: #333;
+}
+div {
+  font-size: 14px;
+  color: #999;
+}
+.img {
+  text-align: center;
+}
