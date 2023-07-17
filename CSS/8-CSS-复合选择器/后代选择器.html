@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后代选择器</title>
+    <style>
+        /* 后代都会影响，不论是孙子还是儿子 */
+        div span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p>写法：父代选择器和子代选择器之间用空格隔开</p>
+    <span>span 标签</span>
+    <div>
+        <span>我是儿子</span>
+        <p>
+            <span>
+                我是孙子
+            </span>
+        </p>
+    </div>
+</body>
+
+</html>
