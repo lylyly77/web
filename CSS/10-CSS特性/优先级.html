@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* !important 慎用 */
+            color: red !important;
+        }
+
+        div {
+            color: blue;
+        }
+
+        #check {
+            color: orange;
+        }
+
+        .box {
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        规则:选择器优先级高的样式生效
+    </p>
+    <p>
+        公式:通配符选择器（*） 标签选择器 类选择器 id选择器 行内样式 !important(优先级由小到大)
+    </p>
+    <p>越具体，优先级越高。与代码读取顺序无关</p>
+    <div class="box" id="check">div标签</div>
+</body>
+
+</html>
