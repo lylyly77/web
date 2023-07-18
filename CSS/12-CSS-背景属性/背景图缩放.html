@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid red;
+            width: 400px;
+            height: 400px;
+            /* 图默认是平铺的效果 */
+            background-image: url(../7-CSS-第三天作业/images/car.jpg);
+
+            background-color: pink;
+            background-repeat: no-repeat;
+            /* 图片高度与盒子相等，停止缩放，会留白 */
+            background-size: contain;
+            /* 占满盒子，但显示不全 */
+            /* background-size: cover; */
+            /* 图片宽度=盒子宽度 */
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>背景图缩放</h1>
+    <p>属性名：background-size</p>
+    <p>缩写方式：bgs</p>
+    <p>属性值：关键字/百分比/数字单位</p>
+    <h3>关键字</h3>
+    <ul>
+        <li>cover:等比例缩放背景图片以完全覆盖背景区，可能背景图片部分看不见</li>
+        <li>contain:等比例缩放背景图片以完全装入背景区，可能背景区部分空白</li>
+    </ul>
+    <div>div标签</div>
+</body>
+
+</html>

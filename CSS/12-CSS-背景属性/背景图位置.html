@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: pink;
+            width: 400px;
+            height: 400px;
+            /* 图默认是平铺的效果 */
+            background-image: url(../7-CSS-第三天作业/images/car.jpg);
+            background-repeat: no-repeat;
+            /* 默认位置是左上角 */
+            /* background-position: 0 0; */
+            background-position: right bottom;
+
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>背景图位置</h1>
+    <p>属性名：background-position</p>
+    <p>缩写方式：bgp</p>
+    <p>属性值：水平方向位置 垂直方向位置</p>
+    <p>left right top bottom center</p>
+    <p>坐标（数字px，正负都可以）</p>
+    <p>提示:
+    <ul>
+        <li>
+            关键字取值方式写法，可以颠倒取值顺序
+        </li>
+        <li>
+            可以只写一个关键字，另一个方向默认为居中;数字只写一个值表示水平方向，垂直方向为居中
+        </li>
+    </ul>
+    </p>
+    <div>div标签</div>
+</body>
+
+</html>

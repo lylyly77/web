@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>HTML</h2>
+    <table>
+        <tr>
+            <th>说明</th>
+            <th>标签结构</th>
+            <th>Emmet</th>
+        </tr>
+        <tr>
+            <td>类选择器</td>
+            <td>
+                <'div class="box">
+                    <' /div>
+            </td>
+            <td>div.box</td>
+        </tr>
+        <tr>
+            <td>id选择器</td>
+            <td>
+                <'div id="box">
+                    <' /div>
+            </td>
+            <td>div#box</td>
+        </tr>
+        <tr>
+            <td>同级选择器</td>
+            <td>
+                <'div>
+                    <' /div>
+                        <'p>
+                            <' /p>
+            </td>
+            <td>div+p</td>
+        </tr>
+        <tr>
+            <td>父子级选择器</td>
+            <td>
+                <'div>
+                    <'p>
+                        <' /p>
+                            <' /div>
+            </td>
+            <td>div>p</td>
+        </tr>
+        <tr>
+            <td>多个相同标签</td>
+            <td>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+            </td>
+            <td>span{$}*3</td>
+        </tr>
+        <tr>
+            <td>有内容的标签</td>
+            <td>
+                <'div>内容
+                    <' /div>
+            </td>
+            <td>div{内容}</td>
+        </tr>
+    </table>
+    <h2>
+        CSS:大多数间歇方式为属性单词的首字母
+    </h2>
+</body>
+
+</html>
