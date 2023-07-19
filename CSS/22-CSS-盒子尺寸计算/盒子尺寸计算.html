@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型-尺寸计算</title>
+    <style>
+        div {
+            box-sizing: border-box;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <p>默认情况</p>
+    <p>盒子尺寸=内容尺寸 + 内边距尺寸 + border尺寸</p>
+    <p>所以给盒子加border/padding会撑大盒子</p>
+    <p>盒模型有两种</p>
+    <p>内容盒（content-box）、border-box（边框盒）</p>
+    <p>内容盒，content-box 的 width：content</p>
+    <p>边框盒 的 width：content+padding+border</p>
+    <p>网页默认是内容盒</p>
+    <p>解决</p>
+    <ul>
+        <li>手动做减法：减掉border/padding的尺寸</li>
+        <li>内减模式：box-sizing: border-box</li>
+    </ul>
+    <div></div>
+</body>
+
+</html>
