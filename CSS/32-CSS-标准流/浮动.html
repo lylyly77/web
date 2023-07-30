@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            /* 进行浮动，脱离文档流 */
+            float: left;
+        }
+
+        .two {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* float: right; */
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        浮动：让块级元素水平排列。
+    </p>
+    <p>
+        属性名：float
+    </p>
+    <p>
+        属性值：left/right
+    </p>
+    <p>
+        顶对齐，具备行内块元素显示特点，脱离文档流
+    </p>
+    <div class="one">one</div>
+    <div class="two">two</div>
+</body>
+
+</html>
